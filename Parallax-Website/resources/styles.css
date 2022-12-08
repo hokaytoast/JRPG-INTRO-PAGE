@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+}
+
+html,body{
+    height: 100%;
+    line-height: 1.8em;
+    color: black;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+.innerheader{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+
+.logocontainer{
+    width: 1000px;
+    height: 100%;
+    float: left;
+    display: table;
+    text-align: center;
+}
+
+.logocontainer h1{
+    color: aliceblue;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: aliceblue;
+    font-size: 25px;
+    color: black;
+}
+
+.navigation a li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.intro_section {
+    background-image: url(./380911.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro , .types, .jrpgvsrpg{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.intro_text, .types_text, .jrpgvsrpg_text{
+    background: black;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    
+}
+
+.intro_section_text_container , .types_text_container, .jrpgvsrpg_text_container {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+.types_section{
+    background-image: url("./wl3xsox.jpeg");
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jrpg_vs_rpg_section{
+    background-image: url("./lPoeoau.jpeg");
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    display: block;
+    width: 100%;
+    height: 45px;
+}
+.innerfooter{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.footer_text{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_text h2{
+    color: blue;
+}
+
+.footer_text h2:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
